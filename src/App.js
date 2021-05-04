@@ -3,7 +3,7 @@ import { Router } from '@reach/router';
 import GlobalStyles from './styles/GlobalStyles';
 
 //pages
-import {Home} from './pages/Home'
+import { Home } from './pages/Home';
 
 const App = () => {
   return (

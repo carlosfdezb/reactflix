@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://carlosfdezb.github.io/reactflix",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "webpack --mode production",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --env development"
@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "@reach/router": "^1.3.4",
-    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-countdown-clock": "^2.8.1",
     "react-dom": "^17.0.1",
@@ -34,6 +33,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
+    "gh-pages": "^3.1.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.0",
     "mini-css-extract-plugin": "^1.3.1",
