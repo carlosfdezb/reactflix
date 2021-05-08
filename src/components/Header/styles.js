@@ -34,4 +34,8 @@ export const GitDiv = styled.a`
     cursor: pointer;
     z-index: 99999;
     color: white;
+    &:hover {
+        filter: drop-shadow(0 0 0.15rem white); 
+        transition: .5s;    
+    }
 `;
