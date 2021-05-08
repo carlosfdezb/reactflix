@@ -1,10 +1,10 @@
 import React from 'react';
+import { Header } from '../components/Header';
 
 export const Home = () => {
   return (
     <div>
-      <h1>Test</h1>
-      <p>esto es una prueba</p>
+      <Header />
     </div>
   );
 };
