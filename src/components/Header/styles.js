@@ -16,18 +16,22 @@ export const Subtitle = styled.h1`
 `;
 
 export const InfoDiv = styled.div`
-    margin-top: 30vh;
+    margin-top: 20vh;
     width: 30vw;
-`;
-
-export const Img = styled.img`
-    max-height: 50vh;
-    margin-left: 50px;
-    margin-top: 15vh;
-    filter: drop-shadow(0 0 0.75rem #1c2c4c);
 `;
 
 export const ParticlesDiv = styled.div`
     position: absolute;
     top: 0;
+`;
+
+export const GitDiv = styled.a`
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+    z-index: 99999;
+    color: white;
 `;
