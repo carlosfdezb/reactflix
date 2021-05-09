@@ -1,11 +1,9 @@
 import styled, { css } from 'styled-components';
 
 export const HeaderDiv = styled.div`
-    height: 80vh;
     width: 100vw;
     display: flex;
     justify-content: center;
-    overflow: hidden;
     position: absolute;
     top: 0;
 `;
@@ -13,6 +11,7 @@ export const HeaderDiv = styled.div`
 export const Subtitle = styled.h1`
     max-width: 30vw;
     font-size: 1.5em;
+    cursor: default;
 `;
 
 export const InfoDiv = styled.div`
@@ -38,4 +37,9 @@ export const GitDiv = styled.a`
         filter: drop-shadow(0 0 0.15rem white); 
         transition: .5s;    
     }
+`;
+
+export const Body = styled.div`
+    margin-top: -20vh;
+    
 `;

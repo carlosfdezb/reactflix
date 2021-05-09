@@ -32,23 +32,25 @@ const GlobalStyle = createGlobalStyle`
             color: white;
             height: 100vh;
             margin: 0 auto;
-            width: 100%;
+            width: 100vw;
     }
     
     /* width */
         ::-webkit-scrollbar {
-          width: 15px;
+          width: 10px;
           height: 10px;
         }
 
       /* Handle on hover */
       ::-webkit-scrollbar:hover {
           background: ${SECONDARY_COLOR};
+          border-radius: 5px;
         }
 
         /* Handle on hover */
         ::-webkit-scrollbar-thumb:hover {
-          background: ${HIGH_COLOR};
+          background:  #1c2c4c;
+          border-radius: 5px;
         }
     
     @media (min-width: 1000px) {
@@ -60,7 +62,8 @@ const GlobalStyle = createGlobalStyle`
               background-color: ${SECONDARY_COLOR};
           }
           ::-webkit-scrollbar-thumb{
-              background-color: ${HIGH_COLOR};
+              background-color: #1c2c4c;
+                border-radius: 5px;
           }
     }
 
@@ -68,7 +71,6 @@ const GlobalStyle = createGlobalStyle`
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
             overflow-x: hidden;
             min-height: 100vh;
-            padding-bottom: 10px;
     }
 
 `;

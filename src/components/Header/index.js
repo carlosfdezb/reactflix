@@ -2,11 +2,11 @@ import React from 'react';
 import Font from 'react-font';
 import Particles from 'react-tsparticles';
 import { SiGithub } from 'react-icons/si';
-import { Wave } from '../Wave';
-import { Logo } from '../Logo';
+import { Wave } from './Wave';
+import { Logo } from './Logo';
 import { HeaderDiv, Subtitle, InfoDiv, ParticlesDiv, GitDiv } from './styles';
-import { Button } from '../Button';
-import { HeaderImg } from '../HeaderImg';
+import { Button } from './Button';
+import { HeaderImg } from './HeaderImg';
 
 export const Header = () => {
   return (
@@ -14,6 +14,7 @@ export const Header = () => {
       <Wave />
       <ParticlesDiv>
         <Particles
+          id='p1'
           height='68vh'
           width='100vw'
           params={{

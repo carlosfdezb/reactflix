@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const BaseDiv = styled.a`
-    margin-top: 60px;
+    margin-top: 40px;
     height: 70px;
     width: 75%;
     background-color: white;

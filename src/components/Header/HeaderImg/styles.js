@@ -145,7 +145,7 @@ export const MovieImg10 = styled.img`
     position: absolute;
 
     transform: translate(25vw, 30vh) rotate(
-        ${(props) => (props.focus ? '100deg' : '-90deg')}
+        ${(props) => (props.focus ? '100deg' : '0deg')}
     ) scale(
         ${(props) => (props.focus ? 1 : 0)}
     );
