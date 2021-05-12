@@ -23,7 +23,13 @@ export const Header = () => {
               'zIndex': 1,
             },
             'particles': {
+              'color': {
+                'value': '#efeeee',
+              },
               'links': {
+                'color': {
+                  'value': '#efeeee',
+                },
                 'enable': true,
               },
               'move': {

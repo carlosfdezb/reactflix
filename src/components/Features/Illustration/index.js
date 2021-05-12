@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Particles from 'react-tsparticles';
-import Font from 'react-font';
-import { Wave } from './Wave';
-import { FooterDiv, ParticlesDiv, Copy } from './styles';
+import { Container, ParticlesDiv } from './styles';
 
-export const Footer = () => {
+import { Background } from './Background';
+
+export const Illustration = () => {
+  const [focus, setFocus] = useState(false);
   return (
-    <FooterDiv>
-      <Wave />
+    <Container onMouseEnter={() => setFocus(true)} onMouseLeave={() => setFocus(false)}>
+      <Background />
       <ParticlesDiv>
         <Particles
-          id='p2'
-          height='100%'
-          width='100vw'
+          id='p3'
+          height='63vh'
+          width='50vw'
           params={{
             'fullScreen': {
               'enable': false,
@@ -31,17 +32,13 @@ export const Footer = () => {
               'move': {
                 'enable': true,
               },
+              'number': {
+                'value': 25,
+              },
             },
           }}
         />
       </ParticlesDiv>
-
-      <Copy>
-        <Font family='Montserrat'>Copyright © 2021</Font>
-        <a href='https://github.com/carlosfdezb' style={{ color: 'white', marginLeft: '10px' }} target='_blank'>
-          <Font family='Montserrat'>Carlos Fernández</Font>
-        </a>
-      </Copy>
-    </FooterDiv>
+    </Container>
   );
 };

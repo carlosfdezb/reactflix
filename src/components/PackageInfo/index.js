@@ -2,7 +2,7 @@ import React from 'react';
 import Font from 'react-font';
 import { Container, ListDiv, Title, SubTitle } from './styles';
 import { Item } from './Item';
-import { REACT, REACT_ROUTER, WEBPACK, BABEL, STYLED_COMPONENTS, FIREBASE, NODE, EXPRESS, AXIOS, NODEMON } from '../../urls/packages';
+import { REACT, REACT_ROUTER, WEBPACK, BABEL, STYLED_COMPONENTS, FIREBASE, NODE, EXPRESS, AXIOS, NODEMON } from '../../urls/resources';
 
 export const PackageInfo = () => {
   return (
