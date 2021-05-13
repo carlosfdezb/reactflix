@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
 import Font from 'react-font';
+import { FaHeart } from 'react-icons/fa';
 import { Wave } from './Wave';
 import { FooterDiv, ParticlesDiv, Copy } from './styles';
 
@@ -37,7 +38,12 @@ export const Footer = () => {
       </ParticlesDiv>
 
       <Copy>
-        <Font family='Montserrat'>Copyright © 2021</Font>
+        <Font family='Montserrat'>
+          Hecho con
+          {' '}
+          <FaHeart />
+          {'  -'}
+        </Font>
         <a href='https://github.com/carlosfdezb' style={{ color: 'white', marginLeft: '10px' }} target='_blank'>
           <Font family='Montserrat'>Carlos Fernández</Font>
         </a>

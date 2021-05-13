@@ -24,8 +24,43 @@ export const MOVIES = [
   'https://i.pinimg.com/originals/9d/06/37/9d06378b2a966b7bede6f1b96b4fb55c.jpg',
   'https://www.limitedruns.com/media/cache/c8/c2/c8c27e59b3c6de8ae5598fca2d5ac20c.jpg',
   'https://images-na.ssl-images-amazon.com/images/I/71--vKV8gVL._AC_SY741_.jpg',
-  '',
-  '',
-  '',
-  '',
+];
+
+//FEATURES
+export const FEATURES = [
+  {
+    'id': 1,
+    'desktop': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/detail_desktop.png',
+    'mobile': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/detail_mobile.png',
+    'title': 'Disfruta donde quieras',
+    'body': 'Gracias a que ReactFlix es una PWA, podrás instalar la aplicación en una gran cantidad de dispositivos modernos, teniendo una experiencia de uso prácticamente nativa.',
+  },
+  {
+    'id': 2,
+    'desktop': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/cast_desktop.png',
+    'mobile': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/cast_mobile.png',
+    'title': 'Toda la información',
+    'body': 'Con ReactFlix, no solo tendrás acceso a las películas y series. También podrás ver distinta información complementaria que mejorará tu experiencia, desde el reparto, pasando por la producción, hasta películas o series relacionadas.',
+  },
+  {
+    'id': 3,
+    'desktop': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/search_desktop.png',
+    'mobile': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/search_mobile.png',
+    'title': 'Busca lo que quieras',
+    'body': 'Gracias al buscador de ReactFlix podrás encontrar en segundos la película o serie que tenías en mente.',
+  },
+  {
+    'id': 4,
+    'desktop': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/season_desktop.png',
+    'mobile': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/season_mobile.png',
+    'title': 'Ve todas tus series Favoritas',
+    'body': 'Porque no sólo de películas se vive, con ReactFlix podrás ver todas tus series favoritas en cualquier momento.',
+  },
+  {
+    'id': 5,
+    'desktop': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/categories_desktop.png',
+    'mobile': 'https://raw.githubusercontent.com/carlosfdezb/reactflix/master/src/assets/features/lilist_mobile.png',
+    'title': 'Y muchas más características',
+    'body': 'Desde filtrar películas y series por género, hasta guardar tus favoritas en Mi Lista, ReactFlix te permite esto y mucho más.',
+  },
 ];

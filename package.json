@@ -19,6 +19,8 @@
     "react-font": "^1.2.1",
     "react-icons": "^4.2.0",
     "react-iframe": "^1.8.0",
+    "react-responsive": "^8.2.0",
+    "react-transition-group": "^4.4.1",
     "react-tsparticles": "^1.26.4",
     "styled-components": "^5.2.1"
   },
